@@ -19,6 +19,11 @@
           <div class="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
             <a class="extra" href="/">home</a>
+			<a class="extra" href="/projects">projects</a>
+			<a class="extra" href="/photography">photography</a>
+			<a class="extra" href="/technology">technology</a>
+			<a class="extra" href="/food">food</a>
+			<a class="extra" href="/about">about</a>
           </div>
 
           {{ content }}
@@ -26,15 +31,18 @@
           <div class="footer">
             <div class="contact">
               <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
+                {{ site.my_name }}<br />
+                Facebook<br />
+                Flickr<br />
+				Email<br />
               </p>
             </div>
             <div class="contact">
               <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
+				<br />
+                <a href="{{ site.my_facebook }}">{{ site.my_facebook }}</a><br />
+                <a href="{{ site.my_flickr }}">{{ site.my_flickr }}</a><br />
+				{{ site.my_email }}<br />
               </p>
             </div>
           </div>
