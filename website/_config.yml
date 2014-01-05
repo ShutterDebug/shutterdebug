@@ -1,6 +1,7 @@
 name: Shutter Debug
 markdown: redcarpet
 pygments: true
+excerpt_separator: <!--excerpt-->
 
 my_name: Anthony Chuang
 my_facebook: http://www.facebook.com/ChuangPhotos

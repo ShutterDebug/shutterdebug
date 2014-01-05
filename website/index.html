@@ -7,7 +7,16 @@ title: Shutter Debug
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+	<li>
+		<div class="post">
+			<!--&raquo;-->
+			<span class="post_title"> {{ post.title }} </span>
+			<br><span class="timestamp">{{ post.date | date_to_string }}</span>
+			<br><span class="excerpt"> {{ post.excerpt }} </span>
+			<div class="read_more"> <a href="{{ post.url }}">More → </a> </div>
+		</div>
+	</li>
+	  
     {% endfor %}
   </ul>
 </div>

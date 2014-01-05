@@ -3,10 +3,13 @@ layout: post
 title:  "Site Reboot"
 date:   2014-01-02 03:33:34
 edited: 2014-01-03 03:22:00
+author: Anthony Chuang
 categories: Site Software Blog
 ---
 
 Wow, it's been a while since I touched this site. Originally I had planned for this site to be my blogging outlet and showcase for personal projects, photography, and all my other interests.  I started with WordPress with intentions to focus on the content rather than creating the site itself, but school quickly got in the way and as a result I haven't touched this in a while.
+
+<!--excerpt-->
 
 In the mean time my WordPress blog got hacked and defaced because of vulnerabilities within WordPress itself and the theme I was using, and it got riddled with spam from WordPress crawlers writing irrelevant comments.  To add insult to the injury, when I looked for support regarding the matter, it seems like this is something common with WordPress sites running third-party themes!
 

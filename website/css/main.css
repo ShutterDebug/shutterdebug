@@ -13,10 +13,11 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  background-color: #3f3f3f;
+  font: 0.834em Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
+  color: #3f3f3f;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,10 +48,24 @@ a:visited { color: #a0a; }
   line-height: 1.75em;
 }
 
-.posts span {
+.posts .timestamp {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
+}
+
+.posts .post_title {
+	font-size: 1.25em;
+}
+
+.posts .excerpt {
+	font-size: 0.9em;
+}
+
+.post {
+	border-bottom: 1px solid #e3e3e3;
+	margin: 3% 0 0 0;
+	padding: 4%;
 }
 
 /*****************************************************************************/
@@ -62,11 +77,18 @@ a:visited { color: #a0a; }
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
+  width: 80%;
+  margin: 0 auto 2em;
+  padding: 2em;
   line-height: 1.5em;
+  background-color: white;
 }
 
+@media (min-width:500px) {
+	.site {
+		width: 60%;
+	}
+}
 .header a {
   font-weight: bold;
   text-decoration: none;
@@ -163,6 +185,24 @@ a:visited { color: #a0a; }
   background-color: #333;
 }
 
+.post .blog_dataTable {
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.post .blog_dataTable td, .post .blog_dataTable th {
+	padding: 0.3em;
+	border: 1px solid black;
+}
+
+.post .blog_dataTable th {
+	text-align: center;
+}
+
+.post .read_more {
+	//text-align: right;
+}
+
 /*****************************************************************************/
 /*
 /* About
@@ -177,4 +217,11 @@ a:visited { color: #a0a; }
 }
 .about_profile_img_container img {
   width: 100%;
+}
+
+@media (max-width:400px) {
+	.about_profile_img_container {
+		width: 80%;
+		margin: 10%;
+	}
 }
