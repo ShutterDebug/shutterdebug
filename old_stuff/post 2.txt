@@ -1,0 +1,5 @@
+New Layout
+Posted on January 15, 2013 by r
+I’m working on adding a new layout to the site. Â  I plan on making use of the Genesis Framework later to build my custom layout, but for now I decided to go with a pre-built one. Â The one I’ve chosen is the Sliding Door theme, because I really like the “sliding door” menu at the top. Â It looks like some things are still work in progress though (like the background being broken on a 1920×1080 screen… by default, and the complete lack of Responsive Web Design/flexible layout) and I’m still trying to figure out how to get pictures into the sliding menu, but it’s a start.
+
+It’s a free theme, so I definitely got what I paid for… but I’m pretty sure I can hack-fix it in no time :)

@@ -1,0 +1,20 @@
+New Start
+Posted on January 10, 2013 by r
+Alright! So after registering this domain last year, I designed a nice page layout on Photoshop and then prototyped it in HTML, but never had actual time to convert that to a full-on blog. Â School got crazy, and the challenge of building my own blogging solution in NodeJS seemed too much trouble for what it was worth, so it kinda just sat there.
+
+Shutter Debug Design
+
+My old site design. Â Hopefully the new one will be even better!
+
+Since then, I’ve decided that over-engineering is pointless (as it should be in any sensible project). Why should I build something that WordPress already does, when what I build would be a lot less functional and take up time I could be actually blogging? Â I mean, that’s what blogging is about right? Â Writing the articles, collecting interesting work, not re-building WP. Â So, here I am.
+
+Enough blabber, and on with the good stuff. Â This blog, aptly named “Shutter Debug”, will be my new way to create, collect, and share my insights and projects on three of my hobbies + interests:
+
+Photography
+Technology, Code Projects, Design, etc
+Food!
+The first thing to do now is to find a decent WP layout and start working off of it! Â I’m not a huge fan of default layouts and I feel like too many of them have Flash… so I’ll be looking for a simple layout utilizing Responsive Web Design (more on this later), and modifying it from there for my needs :)
+
+I will also beÂ imploringÂ the help of a few of my friends with similar interests in writing some articles and working on site design, so stay tuned for their input!
+
+
