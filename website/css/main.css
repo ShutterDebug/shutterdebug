@@ -107,13 +107,38 @@ a:visited { color: #a0a; }
   color: #000;
 }
 
-.header a.extra {
+.header .navigation {
   color: #aaa;
   margin-left: 1em;
+  display: inline-block;
+}
+.header {
+	overflow: auto;
+}
+.header .navigationContainer {
+	width: 90%;
+	display: block;
+	right: 0;
+	//float: right;
+	margin-bottom: 1em;
 }
 
-.header a.extra:hover {
+.header .navigation {
+	width: 12%;
+	margin-left: 5%;
+}
+
+.header .navigation:hover {
   color: #000;
+}
+
+.header  .navigation img {
+	display: block;
+	width: 100%;
+}
+
+.header .navigation span {
+	//display:inline-block;
 }
 
 .meta {
