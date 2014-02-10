@@ -4,7 +4,7 @@ title:  "Responsive Web Design - Part 1: Requirements"
 date:   2014-01-04 04:58:00
 edited: 
 author: Anthony Chuang
-categories: Site Software Blog
+categories: Projects
 tags: responsive web design, rwd, software, web development, design, css, html, user interface, UI
 ---
 

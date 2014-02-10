@@ -1,22 +1,9 @@
 ---
-layout: default
+layout: blogs_index
 title: Shutter Debug
+category_name: Shutter Debug
+category_name: Shutter Debug
+category_icon: \assets\home.png
+category_url: \
 ---
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-	<li>
-		<div class="post">
-			<!--&raquo;-->
-			<span class="post_title"> {{ post.title }} </span>
-			<br><span class="timestamp">{{ post.date | date_to_string }}</span>
-			<br><span class="excerpt"> {{ post.excerpt }} </span>
-			<div class="read_more"> <a href="{{ post.url }}">More → </a> </div>
-		</div>
-	</li>
-	  
-    {% endfor %}
-  </ul>
-</div>
+{{ content }}

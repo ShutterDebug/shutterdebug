@@ -1,0 +1,34 @@
+---
+layout: category
+---
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+		{% if page.category != null %}
+			{% for c in post.categories %}
+				{% if c == page.category %}
+					<li>
+						<div class="post">
+							<!--&raquo;-->
+							<span class="post_title"> {{ post.title }} </span>
+							<br><span class="timestamp">{{ post.date | date_to_string }}</span>
+							<br><span class="excerpt"> {{ post.excerpt }} </span>
+							<div class="read_more"> <a href="{{ post.url }}">More →</a> </div>
+						</div>
+					</li>
+				{% endif %}
+			{% endfor %}
+		{% else %}
+			<li>
+				<div class="post">
+					<!--&raquo;-->
+					<span class="post_title"> {{ post.title }} </span>
+					<br><span class="timestamp">{{ post.date | date_to_string }}</span>
+					<br><span class="excerpt"> {{ post.excerpt }} </span>
+					<div class="read_more"> <a href="{{ post.url }}">More →</a> </div>
+				</div>
+			</li>
+		{% endif %}
+    {% endfor %}
+  </ul>
+</div>
