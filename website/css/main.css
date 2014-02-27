@@ -40,6 +40,7 @@ a:visited { color: #a0a; }
 #home {
   overflow:auto;
   clear: both;
+  margin: 2em;
 }
 
 .posts {
@@ -82,9 +83,14 @@ a:visited { color: #a0a; }
   text-align: justify;
   width: 70%;
   margin: 0 auto 5%;
-  padding: 2em;
+  padding: 2em 0;
   //line-height: 1.5em;
   background-color: white;
+}
+
+.header {
+	overflow: hidden;
+	margin: 0 2em;
 }
 
 .header a {
@@ -106,10 +112,7 @@ a:visited { color: #a0a; }
 }
 
 
-.header {
-	overflow: visible;
-	display: inline;
-}
+
 .header .navigation_Container {
 	display: block;
 	margin-bottom: 1em;
@@ -166,7 +169,7 @@ a:visited { color: #a0a; }
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
-  margin-top: 2em;
+  margin: 2em 2em 0 2em;
   overflow: hidden;
 }
 
@@ -192,7 +195,6 @@ a:visited { color: #a0a; }
 @media (max-width:599px) {
 	.site {
 		width: 90%;
-		padding: 3%;
 	}
 	
 	.header .navigation_link {
@@ -213,7 +215,6 @@ a:visited { color: #a0a; }
 @media (min-width: 1440px) {
 	.site {
 		width: 60%;
-		padding: 2%;
 	}
 	.title {
 		display: inline;
@@ -221,7 +222,7 @@ a:visited { color: #a0a; }
 	}
 	
 	.header .navigation_Container {
-		display: inline;
+		display:inline;
 		vertical-align: middle;
 		max-width: 90%;
 		width: auto;

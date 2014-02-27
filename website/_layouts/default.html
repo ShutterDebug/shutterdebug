@@ -17,17 +17,20 @@
 
         <div class="site">
           <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+			<h1 class="title"><a href="/">{{ site.name }}</a></h1>
+			
 			<div class="navigation_Container">
-				<div class="navigation_link"><a href="/"><img src="\assets\home.png"/><span>Home</span></a></div><!-- remove whitespace
-				--><div class="navigation_link"><a href="/projects"><img src="\assets\projects.png"/><span>Projects</span></a></div><!-- remove whitespace
-				--><div class="navigation_link"><a href="/photography"><img src="\assets\photography.png"/><span>Photography</span></a></div><!-- remove whitespace
-				--><div class="navigation_link"><a href="/technology"><img src="\assets\technology.png"/><span>Technology</span></a></div><!-- remove whitespace
-				--><!--<div class="navigation_link"><a href="/food"><img src="\assets\food.png"/><span>Food</span></a></div>--><!-- remove whitespace
-				--><div class="navigation_link"><a href="/about"><img src="\assets\about.png"/><span>About Me</span></a></div>
+				<div class="navigation_link"><a href="/"><img src="\assets\icons\home.png"/><span>Home</span></a></div><!-- remove whitespace
+				--><div class="navigation_link"><a href="/projects"><img src="\assets\icons\projects.png"/><span>Projects</span></a></div><!-- remove whitespace
+				--><div class="navigation_link"><a href="/photography"><img src="\assets\icons\photography.png"/><span>Photography</span></a></div><!-- remove whitespace
+				--><div class="navigation_link"><a href="/technology"><img src="\assets\icons\technology.png"/><span>Technology</span></a></div><!-- remove whitespace
+				--><!--<div class="navigation_link"><a href="/food"><img src="\assets\icons\food.png"/><span>Food</span></a></div>--><!-- remove whitespace
+				--><div class="navigation_link"><a href="/about"><img src="\assets\icons\about.png"/><span>About Me</span></a></div>
 			</div>
-          </div>
-
+		</div>
+		<div id="banner">
+			<img src="{{ page.banner }}" style="width:100%;"></img>
+		</div>
           {{ content }}
 
           <div class="footer">
